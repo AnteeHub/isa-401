@@ -5,3 +5,7 @@
 - preview: allows any updates to be merged and preview online, including some deployment settings.
 - dev: allows any updates to be merged.
 - dev/{name}: leaves any updates for the student with his/her {name}.
+
+## Using AI Agents
+
+When using an AI agent to create, maintain, or submit work, refer to the repository's `AGENTS.md` and ask the agent to follow its guidance.
