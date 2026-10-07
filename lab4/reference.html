@@ -1,0 +1,47 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pelican Ride / Reference</title><link rel="stylesheet" href="shared/style.css"></head><body><header><span class="eyebrow">ISA401 / Lab 4 / Reference</span><div class="intro"><div><h1>Pelican Ride</h1><p>One bicycle. Three things your team can change.</p></div><nav><a href="START-HERE.html">Start here</a><a href="index.html">Your project</a><a href="reference.html">Reference</a></nav></div></header><main><div class="scene-wrap"><div class="view-caption" aria-hidden="true"><span id="view-kicker">01 / COASTAL ROUTE</span><strong id="view-name">Wide</strong><span id="view-description">The whole ride, in context.</span></div><svg id="scene" viewBox="0 0 1000 470" role="img" aria-label="A pelican riding beside the sea" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d7e9ed"/><stop offset="1" stop-color="#fbf3df"/></linearGradient>
+<linearGradient id="sea" x2="0" y2="1"><stop stop-color="#8cbcc4"/><stop offset="1" stop-color="#bbd9d5"/></linearGradient>
+<linearGradient id="sand" x2="0" y2="1"><stop stop-color="#efdfbd"/><stop offset="1" stop-color="#f6eee0"/></linearGradient>
+<pattern id="road" width="160" height="20" patternUnits="userSpaceOnUse"><path d="M0 10H65" stroke="#fbf7e8" stroke-width="3"/></pattern>
+<pattern id="water-lines" width="230" height="55" patternUnits="userSpaceOnUse"><path d="M12 12H66M120 36H208" stroke="#eef5e9" stroke-width="2" stroke-linecap="round" opacity=".55"/></pattern>
+<pattern id="posts" width="230" height="58" patternUnits="userSpaceOnUse"><path d="M10 56V22L16 18L22 22V56" fill="#778f86"/><path d="M0 29H230" stroke="#bbc6ac" stroke-width="3"/></pattern>
+</defs>
+<rect x="-1000" y="-500" width="3000" height="1200" fill="url(#sky)"/>
+<g id="clouds" fill="#fffdf5" opacity=".72"><path d="M95 88c-8-25 26-43 43-21 18-31 58-17 57 9 31-3 38 27 15 32H102c-16-1-23-13-7-20Z"/><path d="M650 68c-4-20 22-35 39-16 16-21 46-7 43 13 27-3 29 21 7 23h-83c-20 0-22-14-6-20Z"/></g>
+<circle cx="843" cy="99" r="42" fill="#f5d68f"/><circle cx="843" cy="99" r="57" fill="#f8df9e" opacity=".18"/>
+<g id="distant-coast"><path d="M-1000 223Q-300 165 0 212Q140 164 259 214T489 209T730 213T1070 189L2000 216V292H-1000Z" fill="#aecbc6"/>
+<path d="M-1000 233H2000V315H-1000Z" fill="url(#sea)"/>
+<rect x="-1000" y="238" width="3000" height="75" fill="url(#water-lines)"/>
+<g transform="translate(805 203)"><path d="M0 23H38L29 29H7Z" fill="#607b7d"/><path d="M21 0V21H3Z" fill="#fff9e9"/><path d="M24 4V21H37Z" fill="#dfb284"/></g></g>
+<path d="M-1000 300Q-100 283 160 304T630 301T1140 298L2000 304V355H-1000Z" fill="url(#sand)"/>
+<path d="M-1000 309Q-100 292 160 313T630 310T1140 307L2000 313" fill="none" stroke="#fff8e9" stroke-width="3" opacity=".85"/>
+<rect x="-1000" y="330" width="3000" height="300" fill="#76958e"/>
+<rect x="-1000" y="344" width="3000" height="180" fill="#c7cbbd"/>
+<path d="M-1000 345H2000" stroke="#f7f2df" stroke-width="3"/>
+<rect x="-1000" y="433" width="3000" height="20" fill="url(#road)"/>
+<rect id="roadside-posts" x="-1000" y="276" width="3000" height="58" fill="url(#posts)" opacity=".6"/>
+<g id="camera"><g id="rider">
+<ellipse cx="492" cy="411" rx="202" ry="12" fill="#ccd3c9" opacity=".55"/>
+<!-- Bicycle: two wheels, frame, saddle, bars and crank. -->
+<g stroke="#223740" fill="none"><circle cx="358" cy="335" r="71" stroke-width="6"/><circle cx="626" cy="335" r="71" stroke-width="6"/>
+<g id="rear-spokes" stroke="#83999e" stroke-width="2"><path d="M358 266V404M289 335H427M309 286L407 384M309 384L407 286"/></g>
+<g id="front-spokes" stroke="#83999e" stroke-width="2"><path d="M626 266V404M557 335H695M577 286L675 384M577 384L675 286"/></g>
+<path d="M358 335L421 235L483 335ZM421 235H573L483 335M573 235L626 335" stroke="#de785b" stroke-width="9" stroke-linejoin="round"/>
+<path d="M421 235L410 209M573 235L558 198H595" stroke-width="7" stroke-linecap="round"/><path d="M390 208H437" stroke-width="10" stroke-linecap="round"/>
+<circle cx="483" cy="335" r="12" stroke-width="4"/></g>
+<path d="M358 335L483 335" stroke="#546e76" stroke-width="2"/><circle cx="358" cy="335" r="7" fill="#233e48"/><circle cx="626" cy="335" r="7" fill="#233e48"/>
+<!-- The bird's body stays on the saddle. Character changes only use supplied shapes. -->
+<g id="bird" stroke="#354c54" stroke-width="3" stroke-linejoin="round">
+<path id="bird-body" d="M399 147Q368 175 390 198Q420 228 461 201L481 163Z" fill="#fffdf5"/>
+<path id="bird-neck" d="M443 173Q460 143 459 105Q459 74 483 75Q504 78 497 105L481 171Z" fill="#fffdf5"/>
+<path id="bird-wing" d="M398 159Q415 144 445 159L466 181Q429 190 405 178Z" fill="#e3e9e4"/>
+<g id="pelican-head"><path d="M489 92L582 107Q548 151 493 119Z" fill="#efbd78"/><path d="M492 91L587 107L492 108Z" fill="#e8a453"/><circle cx="479" cy="89" r="4" fill="#223740" stroke="none"/></g>
+<g id="duck-head" style="display:none"><path d="M491 91Q536 85 538 104Q520 119 490 110Z" fill="#ee9d46"/><circle cx="479" cy="89" r="4" fill="#223740" stroke="none"/></g>
+<g id="penguin-head" style="display:none"><path d="M491 96L523 108L492 115Z" fill="#e8a453"/><path d="M472 77Q491 70 498 87L499 96L488 94Q480 85 470 92Z" fill="#293e48" stroke="none"/><circle cx="480" cy="88" r="4" fill="#223740" stroke="none"/></g>
+<path d="M405 164L436 174M414 157L449 169" fill="none" stroke="#a5b8b8" stroke-width="2" stroke-linecap="round"/><path d="M447 166Q489 170 527 199L566 198" fill="none" stroke="#354c54" stroke-width="6" stroke-linecap="round"/>
+<polyline id="leg" points="423,198 451,261 503,335" fill="none" stroke="#d99a54" stroke-width="9" stroke-linecap="round"/>
+</g><g id="pedal" stroke="#223740" stroke-width="5" stroke-linecap="round"><path d="M483 335L507 335M499 335H516"/></g>
+</g></g>
+<g id="foreground" fill="#5f8076" opacity=".8"><path d="M45 487Q50 439 72 407Q54 453 58 487M65 487Q69 448 93 437Q73 465 76 487M922 487Q915 445 891 427Q910 457 910 487M947 487Q936 427 961 403Q942 449 958 487"/></g>
+</svg></div><div class="scene-bar"><span id="scene-status" role="status"></span><div><button id="pause">Stop motion</button> <button id="reset">Reset scene</button></div></div><div class="modules"><section class="module"><span class="eyebrow">Member A</span><h2>Speed</h2><div id="controls-A"></div></section><section class="module"><span class="eyebrow">Member B</span><h2>Character</h2><div id="controls-B"></div></section><section class="module"><span class="eyebrow">Member C</span><h2>View</h2><div id="controls-C"></div></section></div></main><footer>Part 5 practice. Ungraded. No submission required. This scene runs locally.</footer><script src="shared/scene.js"></script><script src="reference/speed.js"></script><script src="reference/character.js"></script><script src="reference/view.js"></script><script src="shared/app.js"></script></body></html>
