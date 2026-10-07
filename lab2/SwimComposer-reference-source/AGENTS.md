@@ -1,0 +1,3 @@
+# ISA401 full SwimComposer reference
+
+Read README.md, WALKTHROUGH.md and swimcomposer/SOURCE.md before editing. Follow the student's chosen interaction and instructor's active task/timing. This complete research app uses PixiJS and ES modules, not the small starter API. From the main package folder, run python3 serve.py (Windows: py -3 serve.py); no pip/npm required. Preserve source notices and pinned provenance. The source demo contains placeholder insights and unverified metadata. One implemented/refined viewer interaction is the task; a preset-only edit or complete system rebuild is not required. Test your change in the browser and save the whole project. Windows and actual agent comprehension have not been real-session verified.

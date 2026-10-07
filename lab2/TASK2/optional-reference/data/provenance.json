@@ -1,0 +1,15 @@
+{
+  "source": "Supplied compact SwimComposer teaching video and race data",
+  "originalDataSHA256": "5fe6198fe4260c16bfaa9178bf33e05e96c4aa6d4d485c3d95766151912451dc",
+  "originalVideoSHA256": "8822f7e7ecfaf62987a1c51844562874349648282f22c5b3c951d419166bd67a",
+  "timeMapping": "source video time = exercise time + 5.0 s; no trimmed media file is created",
+  "samples": 800,
+  "processing": {
+    "smoothing": "centered Gaussian: distance sigma 0.60 s, screen x sigma 0.16 s, edge replication; distance nondecreasing clamp",
+    "playback": "monotone cubic interpolation at render time",
+    "videoY": "fixed lane centerline; no detected vertical bounce",
+    "rank": "rank by smoothed estimated distance; source rank provided separately",
+    "geometry": "static approximate regions; not calibrated pool or camera geometry"
+  },
+  "limits": "Estimated data. Static approximate screen geometry. Not official ranks or camera-calibrated coordinates."
+}

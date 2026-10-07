@@ -1,0 +1,25 @@
+{
+  "name": "MNIST classroom MLP",
+  "architecture": [
+    784,
+    48,
+    10
+  ],
+  "hiddenActivation": "relu",
+  "outputActivation": "softmax",
+  "parameters": 38170,
+  "trainingSeed": 20260923,
+  "trainingExamples": 20000,
+  "epochs": 4,
+  "batchSize": 128,
+  "optimizer": "Adam",
+  "learningRate": 0.001,
+  "testAccuracy10000": 0.9388,
+  "classroomAccuracy800": 0.92375,
+  "classroomSamplesPerDigit": 80,
+  "classroomSelectionSeed": 40103,
+  "mnistSource": "https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz",
+  "mnistSha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+  "weightsSha256": "3b83f09a61435fa56ef9ecdffd5072d227c7df7aaa6e7cd383bf57484e07376a",
+  "trainingIdsSha256": "0382275071a548c83086c024d3613470212917bf086b2820143e30ef6b853251"
+}

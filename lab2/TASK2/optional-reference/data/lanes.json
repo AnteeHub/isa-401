@@ -1,0 +1,274 @@
+[
+  {
+    "id": 8,
+    "name": "LIENDO Josh",
+    "country": "Canada",
+    "centerline": [
+      [
+        0,
+        0.062262
+      ],
+      [
+        1,
+        0.062262
+      ]
+    ],
+    "region": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        0.128018
+      ],
+      [
+        0,
+        0.128018
+      ]
+    ],
+    "geometryStatus": "approximate_static_screen_geometry"
+  },
+  {
+    "id": 7,
+    "name": "GKOLOMEEV Kristian",
+    "country": "Greece",
+    "centerline": [
+      [
+        0,
+        0.193774
+      ],
+      [
+        1,
+        0.193774
+      ]
+    ],
+    "region": [
+      [
+        0,
+        0.128018
+      ],
+      [
+        1,
+        0.128018
+      ],
+      [
+        1,
+        0.2554005
+      ],
+      [
+        0,
+        0.2554005
+      ]
+    ],
+    "geometryStatus": "approximate_static_screen_geometry"
+  },
+  {
+    "id": 6,
+    "name": "CROOKS Jordan",
+    "country": "Cayman Islands",
+    "centerline": [
+      [
+        0,
+        0.317027
+      ],
+      [
+        1,
+        0.317027
+      ]
+    ],
+    "region": [
+      [
+        0,
+        0.2554005
+      ],
+      [
+        1,
+        0.2554005
+      ],
+      [
+        1,
+        0.3786532
+      ],
+      [
+        0,
+        0.3786532
+      ]
+    ],
+    "geometryStatus": "approximate_static_screen_geometry"
+  },
+  {
+    "id": 5,
+    "name": "MCEVOY Cameron",
+    "country": "Australia",
+    "centerline": [
+      [
+        0,
+        0.4402795
+      ],
+      [
+        1,
+        0.4402795
+      ]
+    ],
+    "region": [
+      [
+        0,
+        0.3786532
+      ],
+      [
+        1,
+        0.3786532
+      ],
+      [
+        1,
+        0.5041297
+      ],
+      [
+        0,
+        0.5041297
+      ]
+    ],
+    "geometryStatus": "approximate_static_screen_geometry"
+  },
+  {
+    "id": 4,
+    "name": "PROUD Benjamin",
+    "country": "Great Britain",
+    "centerline": [
+      [
+        0,
+        0.56798
+      ],
+      [
+        1,
+        0.56798
+      ]
+    ],
+    "region": [
+      [
+        0,
+        0.5041297
+      ],
+      [
+        1,
+        0.5041297
+      ],
+      [
+        1,
+        0.6296063
+      ],
+      [
+        0,
+        0.6296063
+      ]
+    ],
+    "geometryStatus": "approximate_static_screen_geometry"
+  },
+  {
+    "id": 3,
+    "name": "DEPLANO Leonardo",
+    "country": "Italy",
+    "centerline": [
+      [
+        0,
+        0.6912325
+      ],
+      [
+        1,
+        0.6912325
+      ]
+    ],
+    "region": [
+      [
+        0,
+        0.6296063
+      ],
+      [
+        1,
+        0.6296063
+      ],
+      [
+        1,
+        0.752859
+      ],
+      [
+        0,
+        0.752859
+      ]
+    ],
+    "geometryStatus": "approximate_static_screen_geometry"
+  },
+  {
+    "id": 2,
+    "name": "DRESSEL Caeleb",
+    "country": "United States",
+    "centerline": [
+      [
+        0,
+        0.8144855
+      ],
+      [
+        1,
+        0.8144855
+      ]
+    ],
+    "region": [
+      [
+        0,
+        0.752859
+      ],
+      [
+        1,
+        0.752859
+      ],
+      [
+        1,
+        0.8697343
+      ],
+      [
+        0,
+        0.8697343
+      ]
+    ],
+    "geometryStatus": "approximate_static_screen_geometry"
+  },
+  {
+    "id": 1,
+    "name": "MANAUDOU Florent",
+    "country": "France",
+    "centerline": [
+      [
+        0,
+        0.924983
+      ],
+      [
+        1,
+        0.924983
+      ]
+    ],
+    "region": [
+      [
+        0,
+        0.8697343
+      ],
+      [
+        1,
+        0.8697343
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "geometryStatus": "approximate_static_screen_geometry"
+  }
+]
