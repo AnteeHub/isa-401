@@ -4,7 +4,7 @@
 - main: leaves only the latest version of the lab initial resources/templates.
 - preview: allows any updates to be merged and preview online, including some deployment settings.
 - dev: allows any updates to be merged.
-- dev/{name}: leaves any updates for the student with his/her {name}.
+- {dev/feat/lab_number}/{name}: leaves any updates for the student with his/her {name}. e.g. `dev/tom`, `feat/jerry`, `lab_1/somebody`.
 
 ## Using AI Agents
 
