@@ -22,7 +22,7 @@ The feature thread begins with a three-character selector. The AI offers design 
 
 > *Read README.md and AGENTS.md. I am member B. Follow Step 3 for my role. Implement only my assigned feature file using the supplied ride API. Keep it simple and runnable by opening index.html. Do not change shared code or other members' files. Ask me to choose a small design difference, then implement it independently. Do not copy reference feature code or reproduce its control styling unchanged. Test what you can, tell me what you actually tested, and give me a short handoff message. And here are some new features that I want you develop:「创建三个形象：「pelican, duck and penguin」，并且它们分别作为三个不同的带有语义的选项。三个选项是互斥选项，并且在选项中的每一项包含形象的预览图及其名称，这部分你应该用一个类似于图中的分段控制器(segemented) 实现。并且选项切换的时候，角色可以被正确的展示出来（角色形象按照它的名称去制作对应的 svg 图形）」*
 
-> **Attachment note (editorial):** The user supplied a dark segmented-control reference image with three avatar options: User 1, User 2, and User 3. The original image is not embedded in this Markdown file.
+**Attachment note (editorial):** The user supplied a dark segmented-control reference image with three avatar options: User 1, User 2, and User 3. The original image is not embedded in this Markdown file.
 
 #### AI confirms scope and asks for a design preference
 
@@ -131,7 +131,7 @@ Building on the existing changes and using the existing rider component as a ref
 
 > 基于已有的改动，参考已有的 rider 组件，我想要加上第二行的 controll component，给角色加上不同的帽子。帽子有若干个常见的样式，但这次不需要展示帽子的名称。帽子的名称应该在光标悬停在帽子的预览图上时以 tooltip 浮层展示。其次，所有帽子应该是约 24x24 px 的预览图，以网格形式预览。帽子一共有8个选项。不要用 segemented 组件，而是类似的网格组件作为 ui 样式。第三个，增加一个 color picker，color picker 支持修改帽子的颜色。他应该是一个常见的浏览器原生颜色选择器。修改选择器的颜色时，可以同步到帽子的颜色上。帽子本身应该有自己的默认颜色。
 
-> **Attachment note (editorial):** The user supplied a screenshot of the Character control titled “Choose your rider,” showing Pelican, Duck, and Penguin, with Pelican selected. The original image is not embedded in this Markdown file.
+**Attachment note (editorial):** The user supplied a screenshot of the Character control titled “Choose your rider,” showing Pelican, Duck, and Penguin, with Pelican selected. The original image is not embedded in this Markdown file.
 
 #### AI breaks down the request and proposes an implementation
 
